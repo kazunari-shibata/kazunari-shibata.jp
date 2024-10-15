@@ -53,7 +53,7 @@ export function Article(data: ArticleTypes) {
                 <Link
                     href={data.url}
                     target="_blank"
-                    aria-label={`Learn more about the ${data.title}`}
+                    aria-label={`See more about the ${data.title}`}
                 >
                     <span>{t('See more')}</span>
                 </Link>
