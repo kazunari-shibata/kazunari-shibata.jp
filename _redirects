@@ -1,4 +1,0 @@
-# Canonicalize all domains to https://www.kazunari-shibata.jp
-# (http -> https is handled by Cloudflare's "Always Use HTTPS" setting)
-https://kazunari-shibata.jp/*            https://www.kazunari-shibata.jp/:splat  301
-https://kazunari-shibata-jp.pages.dev/*  https://www.kazunari-shibata.jp/:splat  301
