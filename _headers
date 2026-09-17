@@ -1,0 +1,6 @@
+# Cloudflare Pages builds Link headers from <link rel="preconnect|preload"> in the
+# HTML and sends them as 103 Early Hints, separately from the zone's Early Hints
+# setting (which is off). Its internal fetches were timing out and showing up as
+# 504s in the zone analytics. The <link> tags in the HTML still do the preconnect.
+/*
+  ! Link
