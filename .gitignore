@@ -2,5 +2,3 @@ __pycache__/
 *.pyc
 .DS_Store
 
-# wrangler の手元キャッシュ
-.wrangler/
